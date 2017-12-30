@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0227B4161FF79EFB0006343D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227B4151FF79EFB0006343D /* AppDelegate.swift */; };
-		0227B4181FF79EFB0006343D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227B4171FF79EFB0006343D /* ViewController.swift */; };
+		0227B4181FF79EFB0006343D /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227B4171FF79EFB0006343D /* TodoListViewController.swift */; };
 		0227B41B1FF79EFB0006343D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0227B4191FF79EFB0006343D /* Main.storyboard */; };
 		0227B41D1FF79EFB0006343D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0227B41C1FF79EFB0006343D /* Assets.xcassets */; };
 		0227B4201FF79EFB0006343D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0227B41E1FF79EFB0006343D /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		0227B4121FF79EFB0006343D /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0227B4151FF79EFB0006343D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0227B4171FF79EFB0006343D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0227B4171FF79EFB0006343D /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		0227B41A1FF79EFB0006343D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0227B41C1FF79EFB0006343D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0227B41F1FF79EFB0006343D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				0227B4151FF79EFB0006343D /* AppDelegate.swift */,
-				0227B4171FF79EFB0006343D /* ViewController.swift */,
+				0227B4171FF79EFB0006343D /* TodoListViewController.swift */,
 				0227B4191FF79EFB0006343D /* Main.storyboard */,
 				0227B41C1FF79EFB0006343D /* Assets.xcassets */,
 				0227B41E1FF79EFB0006343D /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0227B4181FF79EFB0006343D /* ViewController.swift in Sources */,
+				0227B4181FF79EFB0006343D /* TodoListViewController.swift in Sources */,
 				0227B4161FF79EFB0006343D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,13 +275,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BPCTFV78S;
+				DEVELOPMENT_TEAM = YMX29JLV46;
 				INFOPLIST_FILE = Todoey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyassingh.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,13 +291,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BPCTFV78S;
+				DEVELOPMENT_TEAM = YMX29JLV46;
 				INFOPLIST_FILE = Todoey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyassingh.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
